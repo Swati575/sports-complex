@@ -1,0 +1,155 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 ,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("basketball.jpg");
+  min-height: 600px;
+}
+
+.bgimg-2 {
+  background-image: url("Swiming.jpg");
+  min-height: 90%;
+}
+
+.bgimg-3 {
+  background-image: url("badminton.jpg");
+  min-height: 700px;
+}
+
+.bgimg-4 {
+  background-image: url("tabletennis.jpg");
+  min-height: 80%;
+}
+.bgimg-5 {
+  background-image: url("back.jpg");
+  min-height: 90%;
+}
+.bgimg-6 {
+  background-image: url("home.jpg");
+  min-height: 100%;
+}
+.bgimg-7 {
+  background-image: url("dashbord.jpg");
+  min-height: 70%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+/* h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 30px "Lato", sans-serif;
+  color: #111;
+} */
+p{
+  font-size:17px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+/* @media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4,.bgimg-5,.bgimg-6 {
+    background-attachment: scroll;
+  }
+} */
+.img1{
+  height: 120px;
+  width: 100px;
+  margin-left: 312px;
+  border-radius: 50%;
+}
+.imgdiv1{
+  background-color: #777;
+  padding: 5px;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: -40px;
+}
+.img2{
+  height: 120px;
+  width: 100px;
+  margin-left: 1015px;
+  margin-top: -300px;
+  border-radius: 50%;
+  position: absolute;
+}
+.imgdiv2{
+  background-color: #777;
+  padding: 5px;
+  color: white;
+  width: 300px;
+  height: 200px;
+  margin-left: 900px;
+  margin-top: -210px;
+}
+.divimg{
+  background-color: #777;
+  width: 350px;
+  height: 300px;
+  box-shadow: 10px 10px 20px;
+}
+a:hover{
+  box-shadow: 20px 20px 30px black;
+}
+.heading{
+  background-color: blue;
+  position: absolute;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  margin: auto;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+.logo{
+  width: 40px;
+}
